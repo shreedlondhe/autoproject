@@ -23,6 +23,7 @@ JavascriptExecutor executor = (JavascriptExecutor)driver;
         Thread.sleep(3000);
         driver.findElement(By.xpath("//div[@class='_aagw']")).click();
         System.out.println("Hello world!");
+        Thread.sleep(3000);
         driver.close();
     }
 }
