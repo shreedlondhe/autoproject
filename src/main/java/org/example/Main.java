@@ -11,7 +11,6 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver= new ChromeDriver();
         driver.get("https://www.google.com");
-
         driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("aditya");
         Thread.sleep(3000);
         WebElement element = driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]"));
